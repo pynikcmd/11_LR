@@ -9,7 +9,7 @@ def multiplication():
     while True:
         b = int(input("Введите число: "))
         if b == 0:
-            return print(f"Произведение чисел: {a}")
+            return a
         else:
             a *= b
 
@@ -18,7 +18,7 @@ def main():
     """""
     Главная функция программы
     """""
-    multiplication()
+    print("Произведение чисел: ", multiplication())
 
 
 if __name__ == '__main__':
